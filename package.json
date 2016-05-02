@@ -1,0 +1,35 @@
+{
+  "name": "nodesidx",
+  "version": "0.0.1",
+  "description": "node wrapper around libspatialindex",
+  "main": "index.js",
+  "scripts": {
+      "test": "node_modules/mocha/bin/mocha test/ -t 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/normanb/nodesidx.git"
+  },
+  "keywords": [
+    "Node",
+    "GIS",
+    "spatial",
+    "indexing",
+    "querying"
+  ],
+  "author": "Norman Barker",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/normanb/nodesidx/issues"
+  },
+  "homepage": "https://github.com/normanb/nodesidx#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "node-gyp": "^3.3.1",
+    "nan": "^2.2.1"
+  },
+  "dependencies": {
+    "bindings": "^1.2.1"
+  }
+}
